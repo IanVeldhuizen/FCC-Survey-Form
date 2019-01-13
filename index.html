@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Title Here</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Descriptive context of page" />
+  <meta name="keywords" content="web design, affordable web design, professional web design" />
+  <link href="https://fonts.googleapis.com/css?family=Quicksand|Thasadith" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+  <link rel="stylesheet" type="text/css" href="main.css">
+<script type="text/javascript" src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js" async></script>
+  
+</head>
+
+<body>
+<div id="main">
+  <header>
+    <h1 id="title">Any questions or comments?</h1>
+  </header>
+
+  <section>
+    <p id="description">Have your say! Fill in the short form to let us know what you think.</p>
+
+    <form action="URL" id="survey-form">
+
+      <div class="inline">
+        <label for="name" class="label" id="name-label">Full Name</label>
+        <input required type="text" id="name" name="name" placeholder="Required" class="input-text">
+      </div>
+
+      <div class="inline">
+        <label for="email" class="label" id="email-label">Email</label>
+        <input required type="email" id="email" name="email" placeholder="Required" class="input-text">
+      </div>
+
+      <div class="inline">
+        <label for="age" class="label" id="number-label">Age</label>
+        <input required type="number" id="number" name="age" placeholder="Required" class="input-text" min="10" max="100">
+      </div>
+
+      <div class="inline">
+        <label for="select" class="label" id="option-label">Please Select your option.</label>
+        <select name="selext" id="dropdown">
+          <option disabled selected="selected">Choose Option</option>
+              <option value="1">Option 1</option>
+              <option value="2">Option 2</option>
+              <option value="3">Option 3</option>
+              <option value="4">Option 4</option>
+        </select>
+      </div>
+
+      <label class="label2">Select the option you prefer.</label>
+
+      <div class="radio">
+        <input type="radio" id="radio1" value="radio1" name="choose-radio" />
+        <label for="radio1">Select 1</label><br>
+        <input type="radio" id="radio2" value="radio2" name="choose-radio" />
+        <label for="radio2">Select 2</label><br>
+      </div>
+
+      <div class="radio">
+        <input type="checkbox" id="choice-1" value="choice-1" />
+        <label for="choice-1">Select 1</label><br>
+        <input type="checkbox" id="choice-2" value="choice-2" />
+        <label for="choice-2">Select 2</label><br>
+      </div>
+
+      <div>
+        <label for="textarea">Please add any additional comments in the text area.</label>
+        <textarea name="comments" id="textarea" cols="30" rows="10"></textarea>
+      </div>
+
+      <div>
+          <button type="submit" name="submit" id="submit">Submit</button>
+      </div>
+
+    </form>
+  </section>
+
+  <aside>
+  </aside>
+
+  <footer>
+    <p>Copyright 2019</p>
+  </footer>
+
+  </div>
+</body>
+</html>
